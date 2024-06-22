@@ -786,4 +786,65 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+@media (max-width: 992px) {
+  .header_section .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand span {
+    font-size: 16px;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 10px;
+  }
+
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+
+  .slider_section .detail-box .btn-box a {
+    width: 130px;
+  }
+
+  .team_section .team_container .box .social_box {
+    padding: 10px 30px 20px 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-toggler {
+    width: 25px;
+    height: 25px;
+  }
+
+  .custom_nav-container .navbar-toggler span {
+    width: 25px;
+    margin: 5px 0;
+  }
+
+  .hero_area .hero_bg_box {
+    align-items: center;
+  }
+
+  .slider_section {
+    padding: 30px 0 80px 0;
+  }
+
+  .slider_section .detail-box h1 {
+    font-size: 1.8rem;
+  }
+
+  .slider_section .detail-box .btn-box a {
+    width: 120px;
+  }
+
+  .team_section .team_container .box .social_box {
+    padding: 10px 20px 20px 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
